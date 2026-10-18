@@ -1,0 +1,14 @@
+{
+  "name": "cinematic-mv-engine",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Deterministic code-drawn cinematic music-video engine (Canvas2D). Reference implementation for the cinematic-music-video-director skill.",
+  "scripts": {
+    "render": "node render.mjs --all --out renders/frames",
+    "encode": "node render.mjs --encode --frames renders/frames --audio assets/song.m4a --out output/final.mp4"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.0.0"
+  }
+}

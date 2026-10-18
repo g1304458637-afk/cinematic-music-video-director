@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# render intermediates & outputs
+renders/
+output/
+*.mp4
+*.jpg
+*.png
+
+# NEVER commit copyrighted audio or lyrics. Bring your own song and
+# keep it local. These are matched intentionally:
+assets/*.m4a
+assets/*.wav
+assets/*.mp3
+assets/*.flac
+assets/*.lrc
+assets/*.srt
